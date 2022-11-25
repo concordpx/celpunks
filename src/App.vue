@@ -18,7 +18,7 @@
           <a
             class="text-4xl underline text-shadow"
             target="_blank"
-            href="https://opensea.io/collection/x00ts"
+            href="https://opensea.io/collection/cel-punks"
           >
             OpenSea
           </a>
@@ -27,7 +27,7 @@
           <a
             class="text-4xl underline text-shadow"
             target="_blank"
-            href="https://etherscan.io/address/0xe77e59e5d9db886b54ec609d0e0add13fe358fba"
+            href="https://etherscan.io/address/0x8bb0e582b1be163330adaea8b7d63c5040b1ed97"
           >
             EtherScan
           </a>
@@ -44,16 +44,15 @@
       alt=""
     /> -->
 
-              <p class="text-8xl pb-6 text-shadow">x00ts</p>
+              <p class="text-8xl pb-6 text-shadow">Cel Punks</p>
 
               <img class="pt-0 pb-10"
-                   src="https://cdn.discordapp.com/attachments/914330440771469393/1016886880589054022/mutant-yoots-rotating.gif"
+                   src="https://chocolate-keen-rhinoceros-217.mypinata.cloud/ipfs/QmP4WbNLhuyWRAyBgruhxvB81skSpguPZRLanu6qZgHmd6"
                    width="420"
                    alt="" />
 
               <p class="text-4xl pb-6 text-shadow text-center">
-                  we are those cast away.  the grifters.  the y00ts living under the bridge pushed into the earth with xcopy.  
-                  this collection is inspired by y00ts and xcopy coming together.  x00ts.
+                  Punks escaped the warden's wrath onto the blockchain.  Where will they go next?'
               </p>
 
               <h1 class="font-serif text-8xl mb-6 text-shadow">
@@ -168,7 +167,7 @@ import { ethers } from 'ethers';
 import { onMounted, ref } from 'vue';
 import useEthers from '@/composables/useEthers.js';
 
-    const ETH_MAINNET_RPC = `https://mainnet.infura.io/v3/b2827a37e34a46b8bb191d2467cb3f26`;
+    const ETH_MAINNET_RPC = `https://eth-mainnet.g.alchemy.com/v2/mOZRdBhnC2sNa4bES4sbNovddNjTwl-8`;
 const injected = injectedModule();
 const walletLink = walletLinkModule();
 const torus = torusModule();
@@ -199,7 +198,7 @@ const onboard = Onboard({
 });
 
 const etherPrice = ref(0.0009);
-const maxSupply = ref(5555);
+const maxSupply = ref(3333);
 const maxPerTxPaid = ref(10);
 const maxPerTxFree = ref(0);
 const numberOfFreeMints = ref(0);
