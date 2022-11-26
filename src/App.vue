@@ -47,12 +47,12 @@
               <p class="text-8xl pb-6 text-shadow">Cel Punks</p>
 
               <img class="pt-0 pb-10"
-                   src="https://chocolate-keen-rhinoceros-217.mypinata.cloud/ipfs/QmP4WbNLhuyWRAyBgruhxvB81skSpguPZRLanu6qZgHmd6"
+                   src="https://chocolate-keen-rhinoceros-217.mypinata.cloud/ipfs/QmUB5KtLUDQg2tDJMsEq8Z7fe9DYeU1qZTRHQQaR3BcosH"
                    width="420"
                    alt="" />
 
               <p class="text-4xl pb-6 text-shadow text-center">
-                  Punks escaped the warden's wrath onto the blockchain.  Where will they go next?'
+                  Punks escaped the warden's wrath onto the blockchain.  Where will they go next?
               </p>
 
               <h1 class="font-serif text-8xl mb-6 text-shadow">
